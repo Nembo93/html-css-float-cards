@@ -45,11 +45,13 @@ p{
 
 /* contenitore dellA */
 .box_card{
+    min-width: 272px;
     color: white;
     background-color: rgb(4, 4, 59);
     float: left;
     margin-left: 10px;
     margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 } 
 
 .card_img{
