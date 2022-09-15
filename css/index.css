@@ -12,6 +12,10 @@
 } 
 
 /* TYPOGRAPHY */
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
 
 /* MAIN */
 
@@ -24,10 +28,11 @@ h1{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
+    color: #E53170;
 }
 p{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* card */
@@ -37,7 +42,8 @@ p{
 }
 
 .box_card{
-    background-color: aquamarine;
+    color: white;
+    background-color: rgb(4, 4, 59);
     float: left;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -49,4 +55,13 @@ p{
 }
 .card_info{
     float: left;
+    padding: 20px 10px;
+}
+.card_info small, a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mail{
+   color: lightseagreen; 
+   font-size: 14px;
 }
