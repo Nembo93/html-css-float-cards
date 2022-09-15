@@ -1,4 +1,4 @@
-/* COMMON */
+/*/// COMMON ///*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,15 +11,15 @@
     clear: both;
 } 
 
-/* TYPOGRAPHY */
+/*/// TYPOGRAPHY ///*/
 body{
     font-family: 'Fredoka', sans-serif;
 }
 
 
-/* MAIN */
+/*/// MAIN ///*/
 
-/* title */
+/* TITLE */
 .box_title{
     max-width: 600px;
     margin: auto;
@@ -35,12 +35,15 @@ p{
     margin-bottom: 30px;
 }
 
-/* card */
+/* CARD */
+
+/* contenitore dellE cards */
 .container{
     max-width: 900px;
     margin: auto;
 }
 
+/* contenitore dellA */
 .box_card{
     color: white;
     background-color: rgb(4, 4, 59);
@@ -64,4 +67,5 @@ p{
 .mail{
    color: lightseagreen; 
    font-size: 14px;
+   text-decoration: none;
 }
